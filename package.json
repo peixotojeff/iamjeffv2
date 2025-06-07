@@ -12,19 +12,17 @@
     "generate-post-from-api": "node scripts/generate-post-from-api.js"
   },
   "dependencies": {
+    "@vercel/speed-insights": "^1.2.0",
     "autoprefixer": "^10.4.13",
     "axios": "^1.9.0",
     "dotenv": "^16.5.0",
     "gray-matter": "4.0.3",
-    "next": "13.1.1",
-    "nextra": "2.0.3",
-    "nextra-theme-blog": "2.0.3",
+    "next": "^15.3.3",
+    "nextra": "^3.4.0",
+    "nextra-theme-blog": "^3.4.0",
     "postcss": "^8.4.20",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "rss": "1.2.2",
-    "sharp": "^0.31.3",
-    "tailwindcss": "^3.2.4"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "eslint": "8.31.0",
