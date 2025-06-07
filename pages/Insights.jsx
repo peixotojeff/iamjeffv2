@@ -19,7 +19,6 @@ export default function Insights() {
           crossOrigin="anonymous"
         />
       </Head>
-      <Component {...pageProps} />
       <div>
         <h1>Insights</h1>
         {/* Conteúdo da página */}
