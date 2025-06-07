@@ -7,10 +7,14 @@
     "build": "pnpm feed && next build",
     "start": "next start",
     "lint": "next lint",
-    "feed":"node scripts/gen-rss.js"
+    "feed": "node scripts/gen-rss.js",
+    "generate-post": "node scripts/generate-post.js",
+    "generate-post-from-api": "node scripts/generate-post-from-api.js"
   },
   "dependencies": {
     "autoprefixer": "^10.4.13",
+    "axios": "^1.9.0",
+    "dotenv": "^16.5.0",
     "gray-matter": "4.0.3",
     "next": "13.1.1",
     "nextra": "2.0.3",
