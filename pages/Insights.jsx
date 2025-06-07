@@ -1,6 +1,5 @@
 import 'nextra-theme-blog/style.css'
 import Head from 'next/head'
-import '../styles/main.css'
 import { SpeedInsights } from '@vercel/speed-insights/react';
 
 export default function Nextra({ Component, pageProps }) {
