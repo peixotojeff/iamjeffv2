@@ -71,3 +71,11 @@ footer a:hover svg {
   transform: scale(1.2);
   transition: transform 0.2s ease-in-out;
 }
+
+/* styles/main.css */
+.reading-time {
+  color: #666;
+  font-size: 0.9em;
+  margin-bottom: 1em;
+  font-style: italic;
+}

@@ -135,4 +135,13 @@ export default {
   </div>
   ),
   darkMode: true,
+  components: {
+    Post: ({ meta, children }) => (
+      <div>
+        <h1>{meta.title || 'Untitled Post'}</h1>
+        {meta.readingTime && <p className="reading-time">Reading Time: {meta.readingTime}</p>}
+        <article>{children}</article>
+      </div>
+    ),
+  },
 };
