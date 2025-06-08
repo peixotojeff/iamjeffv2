@@ -29,7 +29,9 @@ async function generate() {
         description: frontmatter.data.description,
         categories: frontmatter.data.tags || [],
         content: frontmatter.content,
-        author: frontmatter.data.author
+        author: frontmatter.data.author,
+        readingTime: frontmatter.data.readingTime,
+        image: frontmatter.data.image || '',
       })
     })
   )
