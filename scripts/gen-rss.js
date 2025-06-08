@@ -5,7 +5,7 @@ const matter = require('gray-matter')
 
 async function generate() {
   const feed = new RSS({
-    title: 'Rajdeep Singh -- demo blog built with nextra and nextjs',
+    title: 'Jefferson Peixoto - ',
     site_url: 'https://frontendweb3.github.io/nextra-blog/',
     feed_url: 'https://frontendweb3.github.io/nextra-blog/feed.xml'
   })
@@ -27,7 +27,8 @@ async function generate() {
         url: '/posts/' + name.replace(/\.mdx?/, ''),
         date: frontmatter.data.date,
         description: frontmatter.data.description,
-        categories: frontmatter.data.tag.split(','),
+        categories: frontmatter.data.tags || [],
+        content: frontmatter.content,
         author: frontmatter.data.author
       })
     })
